@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/8352411/121231631-e81d1d00-c890-11eb-8c43-772d1d2f67c7.png)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/nicbeu/nicbeu.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
