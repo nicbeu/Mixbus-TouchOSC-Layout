@@ -1,6 +1,6 @@
 # Mixbus Remote Layout for TouchOSC
 
-This is a layout for the old TouchOSC Mk1 app for ipad-sized tablets by Nicolai Beuermann to control Mixbus DAW. 
+This is a layout for the old TouchOSC Mk1 app for ipad-sized tablets to control Mixbus DAW by Nicolai Beuermann. 
 It consists of five panels mainly to control the mixer functionality of Harrison's Mixbus.
 Transport panel, mixer overview, selected channel view, sends on fader pane and a master and monitor pane.
 
