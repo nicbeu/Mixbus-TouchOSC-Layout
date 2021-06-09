@@ -5,7 +5,7 @@ It consists of five panels mainly to control the mixer functionality of Harrison
 Transport panel, mixer overview, selected channel view, sends on fader pane and a master and monitor pane.
 
 ## Requirements
-To install and use this layout you need to have the app [TouchOSC MK1](https://hexler.net/touchosc-mk1). To get the layout on your tablet you also need the editor for the desktop. It's [available](https://hexler.net/touchosc-mk1#resources) for all three major operating systems.
+To install and use this layout you need to get the app [TouchOSC MK1](https://hexler.net/touchosc-mk1) for iOS or Android. To get the layout on your tablet you also need the editor for the desktop. It's [available](https://hexler.net/touchosc-mk1#resources) for all three major operating systems.
 Second you need [Mixbus 6/7](https://harrisonconsoles.com/product/mixbus). It's available for all three major operating systems, too.
 
 
