@@ -6,6 +6,7 @@ Transport panel, mixer overview, selected channel view, sends on fader pane and 
 
 ## Requirements
 To install and use this layout you need to have the app [TouchOSC MK1](https://hexler.net/touchosc-mk1). To get the layout on your tablet you also need the editor for the desktop. It's [available](https://hexler.net/touchosc-mk1#resources) for all three major operating systems.
+Second you need [Mixbus 6/7](https://harrisonconsoles.com/product/mixbus). It's available for all three major operating systems, too.
 
 
 ![image](https://user-images.githubusercontent.com/8352411/121231631-e81d1d00-c890-11eb-8c43-772d1d2f67c7.png)
