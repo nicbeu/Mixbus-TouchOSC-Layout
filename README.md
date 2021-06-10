@@ -1,4 +1,4 @@
-# Mixbus Remote Layout for TouchOSC
+# Mixbus Mixer Remote Layout for TouchOSC
 
 This is a layout file for the old TouchOSC Mk1 app.
 It consists of five panels mainly to control the mixer functionality of Harrison's Mixbus.
