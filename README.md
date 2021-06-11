@@ -45,6 +45,8 @@ keep track of your recording by managing position markers.
 ![image](https://user-images.githubusercontent.com/8352411/121231846-33373000-c891-11eb-94bd-4a3085287845.png)
 
 ### Selected Channel
+Detailed channel view of selected channel. Dynamic Control, Equalizer. Simple on/off control for set up plugins, viewport for selectable 32 channels, fader automation and bus routing.
+
 ![image](https://user-images.githubusercontent.com/8352411/121231949-519d2b80-c891-11eb-8196-3f68af1e6152.png)
 
 ### Sends On Fader
