@@ -1,12 +1,32 @@
 # Mixbus Mixer Remote Layout for TouchOSC
 
-This is a layout file for the old TouchOSC Mk1 app.
+Layout for TouchOSC Mk1 app on ipad-sized tablets to control Mixbus DAW.
 It consists of five panels mainly to control the mixer functionality of Harrison's Mixbus.
 Transport panel, mixer overview, selected channel view, sends on fader pane and a master and monitor pane.
 
 ## Requirements
-To install and use this layout you need to get the app [TouchOSC MK1](https://hexler.net/touchosc-mk1) for iOS or Android. To get the layout on your tablet you also need the editor for the desktop. It's [available](https://hexler.net/touchosc-mk1#resources) for all three major operating systems.
-Second you need [Mixbus 6/7](https://harrisonconsoles.com/product/mixbus). It's available for all three major operating systems, too.
+To install and use this layout you need to get the app [TouchOSC MK1](https://hexler.net/touchosc-mk1) for iOS or Android, if you do not have it yet. To transfer the layout to your tablet you also need the free editor for the desktop. It's [available](https://hexler.net/touchosc-mk1#resources) for all three major operating systems (Java based).
+Second you need [Mixbus 6/7](https://harrisonconsoles.com/product/mixbus). It's available for Linux, Mac and Windows, too.
+
+## How to get it run
+- In Mixbus' Edit Menu -> Preferences -> Control Surfaces activate Open Sound Control (OSC)
+- Show Protocol Setting -> Either choose preset file n15n-mixbus7remote, which you have to copy to your home under $HOME/.config/mixbus7/osc (Linux) before you start Mixbus or set it manually:
+
+  ### OSC Setup
+  - Port Mode: Manual (Specify Below)
+  - Reply Manual Port: 8000
+  - Bank Size: 32
+  - Send Page Size: 0
+  - Plugin Page Size: 0
+  - Gain Mode: /strip/fader (Position)
+  - Debug: Off
+  ### Default Strip Types
+  - Strip Types Value: 19 (cannot be edited directly)
+  - Activate Audio Tracks, Midi Tracks and Control Masters
+  ### Default Feedback
+  - Feedback Value: 16638 (cannot be edited directly)
+  - Select all options except Strip Buttons, Metering as a LED Strip, Signal Present, Play Head Position as Samples, Play Head Position as Minutes Seconds, Extra Select Only Feedback.
+
 
 
 ![image](https://user-images.githubusercontent.com/8352411/121231631-e81d1d00-c890-11eb-8c43-772d1d2f67c7.png)
