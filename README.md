@@ -8,7 +8,7 @@ Transport panel, mixer overview, selected channel view, sends on fader pane and 
 - TouchOSC (MK-1)
 To install and use this layout you need to get the app [TouchOSC MK1](https://hexler.net/touchosc-mk1) for iOS or Android, if you do not have it yet. We can consider ourselves lucky that they continue the old version.
 To transfer the layout to your tablet you need the editor for the desktop. It's [available](https://hexler.net/touchosc-mk1#resources) for all three major operating systems (Java based) and it is free of charge.
-Second you need [Mixbus 6/7](https://harrisonconsoles.com/product/mixbus). It's available for Linux, Mac and Windows, too.
+Second you need [Mixbus 6 or 7](https://harrisonconsoles.com/product/mixbus). It's available for Linux, Mac and Windows, too.
 
 ## How to get it run
 - In Mixbus' Edit Menu -> Preferences -> Control Surfaces activate Open Sound Control (OSC)
@@ -28,6 +28,14 @@ Second you need [Mixbus 6/7](https://harrisonconsoles.com/product/mixbus). It's 
   ### Default Feedback
   - Feedback Value: 16638 (cannot be edited directly)
   - Select all options EXCEPT Strip Buttons, Metering as a LED Strip, Signal Present, Play Head Position as Samples, Play Head Position as Minutes Seconds, Extra Select Only Feedback.
+
+## The Panels
+
+### Transport Panel
+Intuitively set range markers to mark a loop or a punch area,
+recording controls include count in and preroll recordings,
+jog wheel lets you easily relocate song position on the fly,
+keep track of your recording by managing position markers.
 
 
 
