@@ -23,11 +23,11 @@ Second you need [Mixbus 6 or 7](https://harrisonconsoles.com/product/mixbus). It
   - Gain Mode: /strip/fader (Position)
   - Debug: Off
 
-### Default Strip Types
+  ### Default Strip Types
   - Strip Types Value: 19 (cannot be edited directly)
   - Activate Audio Tracks, Midi Tracks and Control Masters
 
-### Default Feedback
+  ### Default Feedback
   - Feedback Value: 16638 (cannot be edited directly)
   - Select all options EXCEPT Strip Buttons, Metering as a LED Strip, Signal Present, Play Head Position as Samples, Play Head Position as Minutes Seconds, Extra Select Only Feedback.
 
