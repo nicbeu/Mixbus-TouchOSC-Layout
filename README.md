@@ -1,4 +1,3 @@
-{% seo %}
 # Mixbus Mixer Remote Layout for TouchOSC
 
 Layout for TouchOSC Mk1 app on ipad-sized tablets to control Mixbus DAW.
