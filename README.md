@@ -13,12 +13,13 @@ To transfer the layout to your tablet you need the editor for the desktop. It's 
 ## How to get it run
 - In Mixbus' Edit Menu -> Preferences -> Control Surfaces activate Open Sound Control (OSC)
 - Show Protocol Setting -> Either choose **preset file** [n15n-mixbus7remote](n15n-mixbus7remote.preset), which you have to copy to your home directory before you start Mixbus
-(please create the osc directory, if it's not there already)
+(please create the osc directory, if it's not there already and substitute *username*)
   - Linux: /home/username/.config/mixbus7/osc
   - Windows: C:\Users\username\AppData\local\Mixbus7\osc 
   - MacOS: /Users/username/Library/Preferences/Mixbus7/osc
 
   or try **manual settings**:
+  
    ### OSC Setup
    - Port Mode: Manual (Specify Below)
    - Reply Manual Port: 8000
