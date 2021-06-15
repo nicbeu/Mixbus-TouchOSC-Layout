@@ -15,7 +15,7 @@ To transfer the layout to your tablet you need the editor for the desktop. It's 
 - Show Protocol Setting -> Either choose **preset file** [n15n-mixbus7remote](n15n-mixbus7remote.preset), which you have to copy to your home directory before you start Mixbus
   - Linux: /home/username/.config/mixbus7/osc
   - Windows: C:\Users\username\AppData\local\Mixbus7\osc 
-  - MacOS: TODO
+  - MacOS: /Applications/Mixbus7.app/Contents/Resources/osc
 
   or try **manual settings**:
    ### OSC Setup
