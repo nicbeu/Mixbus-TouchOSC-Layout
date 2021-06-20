@@ -63,4 +63,4 @@ Detailed channel view of selected channel. Dynamic Control, Equalizer. Simple on
 ![image](https://user-images.githubusercontent.com/8352411/121232018-67aaec00-c891-11eb-9563-539e6b8ebce3.png)
 
 ### Master & Monitor
-![image](https://user-images.githubusercontent.com/8352411/121232068-7abdbc00-c891-11eb-931e-1a95dbca19ca.png)
+![2021-06-20 22 48](https://user-images.githubusercontent.com/8352411/122688020-0c2a1800-d21a-11eb-8070-db50ddfdb538.png)
