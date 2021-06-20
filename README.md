@@ -50,7 +50,7 @@ keep track of your recording by managing position markers.
 ![image](https://user-images.githubusercontent.com/8352411/121231631-e81d1d00-c890-11eb-8c43-772d1d2f67c7.png)
 
 ### Mixer Panel
-8 channels view: manual control of input monitoring, volume control, channel meters rec enable, Mute, Solo, Hide option and selection per channel.
+8 channels view banked: per channel control of gain, input monitoring, volume control, rec enable, mute, solo, hide option and selection per channel. Every channel has a meter to estimate the volume. Master channel meter features a K-12 inspired and a DPM scale to get a decent volume.
 
 ![image](https://user-images.githubusercontent.com/8352411/121231846-33373000-c891-11eb-94bd-4a3085287845.png)
 
