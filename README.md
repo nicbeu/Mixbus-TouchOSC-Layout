@@ -52,7 +52,7 @@ keep track of your recording by managing position markers.
 ### Mixer Panel
 8 channels view banked: per channel control of gain, input monitoring, volume control, rec enable, mute, solo, hide option and selection per channel. Every channel has a meter to estimate the volume. Master channel meter features a K-12 inspired and a DPM scale to get a decent volume.
 
-![image](https://user-images.githubusercontent.com/8352411/121231846-33373000-c891-11eb-94bd-4a3085287845.png)
+![image](https://user-images.githubusercontent.com/8352411/122676475-93f23100-d1de-11eb-834a-de836ea1f262.png)
 
 ### Selected Channel
 Detailed channel view of selected channel. Dynamic Control, Equalizer. Simple on/off control for set up plugins, viewport for selectable 32 channels, fader automation and bus routing.
