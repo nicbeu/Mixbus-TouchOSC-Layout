@@ -47,20 +47,20 @@ recording controls include count in and preroll recordings,
 jog wheel lets you easily relocate song position on the fly,
 keep track of your recording by managing position markers.
 
-![image](https://user-images.githubusercontent.com/8352411/121231631-e81d1d00-c890-11eb-8c43-772d1d2f67c7.png)
+![Transport Panel](https://user-images.githubusercontent.com/8352411/121231631-e81d1d00-c890-11eb-8c43-772d1d2f67c7.png)
 
 ### Mixer Panel
 8 channels view banked: per channel control of gain, input monitoring, volume control, rec enable, mute, solo, hide option and selection per channel. Every channel has a meter to estimate the volume. Master channel meter features a K-12 inspired and a DPM scale to get a decent volume.
 
-![image](https://user-images.githubusercontent.com/8352411/122676475-93f23100-d1de-11eb-834a-de836ea1f262.png)
+![Mixer Panel](https://user-images.githubusercontent.com/8352411/122676475-93f23100-d1de-11eb-834a-de836ea1f262.png)
 
 ### Selected Channel
 Detailed channel view of selected channel. Dynamic Control, Equalizer. Simple on/off control for set up plugins, viewport for selectable 32 channels, fader automation and bus routing.
 
-![image](https://user-images.githubusercontent.com/8352411/121231949-519d2b80-c891-11eb-8196-3f68af1e6152.png)
+![Selected Ch Panel](https://user-images.githubusercontent.com/8352411/121231949-519d2b80-c891-11eb-8196-3f68af1e6152.png)
 
 ### Sends On Fader
-![image](https://user-images.githubusercontent.com/8352411/121232018-67aaec00-c891-11eb-9563-539e6b8ebce3.png)
+![SendsOnFader Panel](https://user-images.githubusercontent.com/8352411/121232018-67aaec00-c891-11eb-9563-539e6b8ebce3.png)
 
 ### Master & Monitor
-![2021-06-20 22 48](https://user-images.githubusercontent.com/8352411/122688020-0c2a1800-d21a-11eb-8070-db50ddfdb538.png)
+![Master & Monitor Panel](https://user-images.githubusercontent.com/8352411/122688020-0c2a1800-d21a-11eb-8070-db50ddfdb538.png)
