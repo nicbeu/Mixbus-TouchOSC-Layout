@@ -1,7 +1,12 @@
 # Mixbus Mixer Remote Layout for TouchOSC
 
-Layout for TouchOSC Mk1 app on ipad-sized tablets to control Mixbus DAW.
-It consists of five panels mainly to control the mixer functionality of Harrison's Mixbus.
+This is a layout to use with TouchOSC MK-1 App. It is used to control Mixbus DAW remotely via open sound control (OSC) protocol on ipad-sized tablets.
+My goal is to create a simple mixer interface and recording control that makes full use of Mixbus' possibilities.
+I want it to have as much overview and control functions as possible. On the other side controls like buttons, wheels and faders should not be too small. They should be easy and safe to hit. 
+
+To get a stable and reliable layout all features that does not work with Mixbus 6 or 7 are not implemented. Particularly unfortunate is the shaky support of the panorama setting and the incomplete OSC implementation of the master and monitor busses. In addition, the handling of prefader sends has not yet been solved from my side. The bugs has been reported to Harrison, but so far I have not received any feedback. But chances are good that future releases solve some issues, because Mixbus builds upon Ardour and Ardour does not have, for example, the panorama problem.
+
+The Mixbus Remote Layout consists of five panels mainly to control the mixer functionality of Harrison's Mixbus.
 Transport panel, mixer overview, selected channel view, sends on fader pane and a master and monitor pane.
 
 ## Requirements
