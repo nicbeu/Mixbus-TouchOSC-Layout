@@ -6,7 +6,7 @@ I want it to have as much overview and control functions as possible. On the oth
 
 To get a stable and reliable layout all features that does not work with Mixbus 6 or 7 are not implemented. Particularly unfortunate is the shaky support of the panorama setting and the incomplete OSC implementation of the master and monitor busses. In addition, the handling of prefader sends has not yet been solved from my side. The bugs has been reported to Harrison, but so far I have not received any feedback. But chances are good that future releases solve some issues, because Mixbus builds upon Ardour and Ardour does not have, for example, the panorama problem.
 
-The Mixbus Remote Layout consists of five panels mainly to control the mixer functionality of Harrison's Mixbus.
+The [Mixbus Remote Layout](mixbus7remote-0.1.1.touchosc) consists of five panels mainly to control the mixer functionality of Harrison's Mixbus.
 Transport panel, mixer overview, selected channel view, sends on fader pane and a master and monitor pane.
 
 ## Requirements
