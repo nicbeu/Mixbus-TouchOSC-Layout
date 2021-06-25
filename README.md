@@ -5,8 +5,6 @@ This is a layout to use with TouchOSC MK-1 App. It is used to control Mixbus DAW
 My goal is to create a simple mixer interface and recording control that makes full use of Mixbus' possibilities.
 I want it to have as much overview and control functions as possible. On the other side controls like buttons, wheels and faders should not be too small. They should be easy and safe to hit. 
 
-To get a stable and reliable layout all features that does not work with Mixbus 6 or 7 are not implemented. Particularly unfortunate is the shaky support of the panorama setting and the incomplete OSC implementation of the master and monitor busses. In addition, the handling of prefader sends has not yet been solved from my side. The bugs has been reported to Harrison, but so far I have not received any feedback. But chances are good that future releases solve some issues, because Mixbus builds upon Ardour and Ardour does not have, for example, the panorama problem.
-
 The [Mixbus Remote Layout](mixbus7remote-0.1.1.touchosc) consists of five panels mainly to control the mixer functionality of Harrison's Mixbus.
 Transport panel, mixer overview, selected channel view, sends on fader pane and a master and monitor pane.
 
@@ -43,7 +41,10 @@ To transfer the layout to your tablet you need the editor for the desktop. It's 
    - Feedback Value: 16638 (cannot be edited directly)
    - Select all options EXCEPT Strip Buttons, Metering as a LED Strip, Signal Present, Play Head Position as Samples, Play Head Position as Minutes Seconds, Extra Select Only Feedback.
 
+This done you get a fully working first panel after loading the layout without the need to initiate the connection first. If you do not mind to switch the panels after loading the layout file, just stay with Mixbus' **factory setting** preset.
 
+## Caveats and Todos
+To get a stable and reliable layout all features that does not work with Mixbus 6 or 7 are not fully implemented. Particularly unfortunate is the shaky support of the panorama setting and the incomplete OSC implementation of the master and monitor busses. In addition, the handling of prefader sends has not yet been solved from my side. Bugs has been reported to Harrison, but so far they did not come back to me. Nevertheless chances are good that future releases solve some issues, because Mixbus builds upon [Ardour](https://www.ardour.org) and Ardour does not have, for example, the panorama problem.
 
 ## The Panels
 
