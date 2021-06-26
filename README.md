@@ -33,8 +33,6 @@ Transport panel, mixer overview, selected channel view, sends on fader pane and 
    #### Default Feedback
    - Feedback Value: 16638 (cannot be edited directly)
    - Select all options EXCEPT Strip Buttons, Metering as a LED Strip, Signal Present, Play Head Position as Samples, Play Head Position as Minutes Seconds, Extra Select Only Feedback.
-
-
 - Load [Mixbus Remote Layout](mixbus7remote-0.1.1.touchosc) into TouchOSC on your tablet (for more Information see [TouchOSC-MK1 Manual](https://hexler.net/touchosc-mk1/manual/configuration-layout)). 
   - If you use the _Ardour Factory Setting_ you have to switch between the panels, eg. go to "Mixer" and then back to "Transport". Each panel switch sends a new connect request.
 
