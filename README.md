@@ -5,13 +5,15 @@ This is a layout to use with TouchOSC MK-1 App. It is used to control Mixbus DAW
 My goal is to create a simple mixer interface and recording control that makes full use of Mixbus' and TouchOSC' possibilities.
 I want it to have as much overview and control functions as possible on one panel. On the other side controls like buttons, wheels and faders should not be too small. They should be easy and safe to hit. 
 
-The [Mixbus Remote Layout](mixbus7remote-0.1.1.touchosc) consists of five panels mainly to control the mixer functionality of Harrison's Mixbus.
+The [Mixbus Remote Layout](mixbus10remote-0.1.touchosc) consists of five panels mainly to control the mixer functionality of Harrison Mixbus.
 Transport panel, mixer overview, selected channel view, sends on fader pane and a master and monitor pane.
 
 ## Requirements
 - TouchOSC (MK-1): To install and use this layout you need to get the app [TouchOSC MK1](https://hexler.net/touchosc-mk1) for iOS or Android, if you do not have it yet. We can consider ourselves lucky that they continue the old version.
 
-- Mixbus 7: Second you need [Mixbus 6 or 7](https://harrisonconsoles.com/product/mixbus). It's available for Linux, Mac and Windows, too.
+- Mixbus 10: Second you need [Mixbus 10](https://store.harrisonaudio.com/all-products/mixbus-10). It's available for Linux, Mac and Windows, too.
+(Initially made the layout for Mixbus 6/7. OSC support in Mixbus 8 and 9 was very buggy and hardly usable.
+Mixbus 10 now supports almost all commands required by the layout.)
 
 ## How to get it run
 - In Mixbus' Edit Menu -> Preferences -> Control Surfaces activate Open Sound Control (OSC)
@@ -33,14 +35,16 @@ Transport panel, mixer overview, selected channel view, sends on fader pane and 
    #### Default Feedback
    - Feedback Value: 16638 (cannot be edited directly)
    - Select all options EXCEPT Strip Buttons, Metering as a LED Strip, Signal Present, Play Head Position as Samples, Play Head Position as Minutes Seconds, Extra Select Only Feedback.
-- Load [Mixbus Remote Layout](mixbus7remote-0.1.1.touchosc) into TouchOSC on your tablet (for more Information see [TouchOSC-MK1 Manual](https://hexler.net/touchosc-mk1/manual/configuration-layout)). 
+- Load [Mixbus Remote Layout](mixbus10remote-0.1.touchosc) into TouchOSC on your tablet (for more Information see [TouchOSC-MK1 Manual](https://hexler.net/touchosc-mk1/manual/configuration-layout)). 
   - If you use the _Ardour Factory Setting_ you have to switch between the panels, eg. go to "Mixer" and then back to "Transport". Each panel switch sends a new connect request.
 
   - Simply push the _refresh_ button in the upper right corner of the first panel, if you use the _manual setup_.
 
 
 ## Caveats and Todos
-I have tried to create a stable, reliable and working layout. But particularly unfortunate is the shaky support of the panorama setting (input channels does not get reliable feedback from Mixbus, but control panorama setting works) and the incomplete OSC implementation of the master and monitor busses. In addition, the handling of prefader sends has not yet been solved from my side. Bugs has been reported to Harrison, but so far they did not come back to me. Nevertheless chances are good that future releases solve some issues, because Mixbus builds upon [Ardour](https://www.ardour.org) and Ardour does not have, for example, the panorama problem.
+  - Compressor mode selection does not react as expected, but the switching works nevertheless.
+  - Screenshots on this page has not been updated.
+  - New features of Mixbus 10 are not implemented.
 
 ## The Panels
 
