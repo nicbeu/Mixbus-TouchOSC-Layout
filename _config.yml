@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
-title: Mixbus 7 TouchOSC Mk1 Layout
-description: Layout for TouchOSC to control Harrison Mixbus version 7. 
+title: Mixbus 10 TouchOSC Mk1 Layout
+description: Layout for TouchOSC to control Harrison Mixbus version 10. 
 
 plugins:
   - jekyll-seo-tag
