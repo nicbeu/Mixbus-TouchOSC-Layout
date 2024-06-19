@@ -22,12 +22,13 @@ Mixbus 10 now supports almost all commands required by the layout.)
    #### OSC Setup
    - Port Mode: Manual (Specify Below)
    - Reply Manual Port: 8000
-   - Debug: Off
-
+   - Debug: Off  
 
 - Load [Mixbus Remote Layout](mixbus10remote-0.1.touchosc) into TouchOSC on your tablet (for more Information see [TouchOSC-MK1 Manual](https://hexler.net/touchosc-mk1/manual/configuration-layout)).
-- In the settings dialog of TouchOSC OSC needs to be enabled, the host's IP address must be filled in and the port numbers must match Mixbus'. Port (outgoing) you find at the top of Mixbus' protocol settings: Looks like *Connection: osc.udp://xxx.xxx:3819* Port (incoming) corresponds to the Manual Reply Port of Mixbus' OSC Setup.
-  - Once the OSC controller is connected to Mixbus all the other settings are overwritten when you switch between the panels, eg. go to "Mixer" and then back to "Transport". Each panel switch sends a new connect request.
+- In the settings dialog of TouchOSC OSC needs to be enabled, the host's IP address must be filled in and the port numbers must match Mixbus'.
+    - Port (outgoing) you find at the top of Mixbus' protocol settings: Looks like *Connection: osc.udp://xxx.xxx:3819*. You are looking for the last 4 digits.
+    - Port (incoming) corresponds to the Manual Reply Port of Mixbus' OSC Setup. *8000* in this example.
+- Once the OSC controller is connected to Mixbus all the other settings are overwritten when you switch between the panels. Each panel switch sends a new connect request.
 
 ## Caveats and Todos
   - Compressor mode selection does not react as expected, but the switching works nevertheless.
