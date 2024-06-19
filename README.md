@@ -22,24 +22,11 @@ Mixbus 10 now supports almost all commands required by the layout.)
    #### OSC Setup
    - Port Mode: Manual (Specify Below)
    - Reply Manual Port: 8000
-   - Bank Size: 32
-   - Send Page Size: 0
-   - Plugin Page Size: 0
-   - Gain Mode: /strip/fader (Position)
    - Debug: Off
 
-   #### Default Strip Types
-   - Strip Types Value: 19 (cannot be edited directly)
-   - Activate Audio Tracks, Midi Tracks and Control Masters
-
-   #### Default Feedback
-   - Feedback Value: 16638 (cannot be edited directly)
-   - Select all options EXCEPT Strip Buttons, Metering as a LED Strip, Signal Present, Play Head Position as Samples, Play Head Position as Minutes Seconds, Extra Select Only Feedback.
-- Load [Mixbus Remote Layout](mixbus10remote-0.1.touchosc) into TouchOSC on your tablet (for more Information see [TouchOSC-MK1 Manual](https://hexler.net/touchosc-mk1/manual/configuration-layout)). 
-  - If you use the _Ardour Factory Setting_ you have to switch between the panels, eg. go to "Mixer" and then back to "Transport". Each panel switch sends a new connect request.
-
-  - Simply push the _refresh_ button in the upper right corner of the first panel, if you use the _manual setup_.
-
+- Load [Mixbus Remote Layout](mixbus10remote-0.1.touchosc) into TouchOSC on your tablet (for more Information see [TouchOSC-MK1 Manual](https://hexler.net/touchosc-mk1/manual/configuration-layout)).
+- In the settings dialog of TouchOSC OSC needs to be enabled, the host's IP address must be filled in and the port numbers must match Mixbus'. Port (outgoing) you find at the top of Mixbus' protocol settings: Looks like *Connection: osc.udp://xxx.xxx:3819* Port (incoming) corresponds to the Manual Reply Port of Mixbus' OSC Setup.
+  - Once the OSC controller is connected to Mixbus all the other settings are overwritten when you switch between the panels, eg. go to "Mixer" and then back to "Transport". Each panel switch sends a new connect request.
 
 ## Caveats and Todos
   - Compressor mode selection does not react as expected, but the switching works nevertheless.
