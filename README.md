@@ -32,6 +32,7 @@ Mixbus 10 now supports almost all commands required by the layout.)
 
 ## Caveats and Todos
   - Compressor mode selection does not react as expected, but the switching works nevertheless.
+  - Compressor ratio setting does not work due to a bug in Mixbus which does not recognize the documented command.
   - Screenshots on this page has not been updated.
   - New features of Mixbus 10 are not implemented.
 
