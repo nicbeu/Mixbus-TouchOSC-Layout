@@ -39,19 +39,18 @@ Mixbus 10 now supports almost all commands required by the layout.)
 ## The Panels
 
 ### Transport Panel
-Intuitively set range markers to mark a loop or a punch area,
-recording controls include count in and preroll recordings,
-jog wheel lets you easily relocate song position on the fly,
-keep track of your recording by managing position markers.
+Intuitively set range markers to define a loop or punch area. Recording controls include count-in and pre-roll options. The jog wheel allows you to quickly adjust the song position on the fly, and position markers help you keep track of your recording.
 
 ![Transport Panel](https://user-images.githubusercontent.com/8352411/121231631-e81d1d00-c890-11eb-8c43-772d1d2f67c7.png)
 
 ### Mixer Panel
-8 channels view banked: per channel control of gain, input monitoring, volume control, rec enable, mute, solo, hide option and selection per channel. Every channel has a meter to estimate the volume. Master channel meter features a K-12 inspired and a DPM scale to get a decent volume.
+8 channels are viewed in a banked layout, with individual controls for each channel including gain, input monitoring, volume, record enable, mute, solo, hide option, and selection. Each channel is equipped with a meter to monitor volume levels. The master channel meter includes a K-12 inspired scale and a DPM scale for accurate volume assessment.
 
 ![Mixer Panel](https://user-images.githubusercontent.com/8352411/122676475-93f23100-d1de-11eb-834a-de836ea1f262.png)
 
 ### Selected Channel
+The detailed view of the selected channel includes dynamic control and an equalizer. It features simple on/off controls for previously set up plugins, a viewport for selecting up to 32 channels, fader automation, and bus routing.
+
 Detailed channel view of selected channel. Dynamic Control, Equalizer. Simple on/off control for set up plugins, viewport for selectable 32 channels, fader automation and bus routing.
 
 ![Selected Ch Panel](https://user-images.githubusercontent.com/8352411/121231949-519d2b80-c891-11eb-8196-3f68af1e6152.png)
