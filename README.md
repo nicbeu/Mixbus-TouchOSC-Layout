@@ -5,7 +5,7 @@ This is a layout to use with TouchOSC MK-1 App. It is used to control Mixbus DAW
 My goal is to create a simple mixer interface and recording control that makes full use of Mixbus' and TouchOSC' possibilities.
 I want it to have as much overview and control functions as possible on one panel. On the other side controls like buttons, wheels and faders should not be too small. They should be easy and safe to hit. 
 
-The [Mixbus Remote Layout](mixbus10remote-0.1.touchosc) consists of five panels mainly to control the mixer functionality of Harrison Mixbus.
+The [Mixbus Remote Layout](mixbus10remote-0.1.1.touchosc) consists of five panels mainly to control the mixer functionality of Harrison Mixbus.
 Transport panel, mixer overview, selected channel view, sends on fader pane and a master and monitor pane.
 
 ## Requirements
@@ -24,7 +24,7 @@ Mixbus 10 now supports almost all commands required by the layout.)
    - Reply Manual Port: 8000
    - Debug: Off  
 
-- Load [Mixbus Remote Layout](mixbus10remote-0.1.touchosc) into TouchOSC on your tablet (for more Information see [TouchOSC-MK1 Manual](https://hexler.net/touchosc-mk1/manual/configuration-layout)).
+- Load [Mixbus Remote Layout](mixbus10remote-0.1.1.touchosc) into TouchOSC on your tablet (for more Information see [TouchOSC-MK1 Manual](https://hexler.net/touchosc-mk1/manual/configuration-layout)).
 - In the settings dialog of TouchOSC OSC needs to be enabled, the host's IP address must be filled in and the port numbers must match Mixbus'.
     - Port (outgoing) you find at the top of Mixbus' protocol settings: Looks like *Connection: osc.udp://xxx.xxx:3819*. You are looking for the last 4 digits.
     - Port (incoming) corresponds to the Manual Reply Port of Mixbus' OSC Setup. *8000* in this example.
