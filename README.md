@@ -51,8 +51,6 @@ Intuitively set range markers to define a loop or punch area. Recording controls
 ### Selected Channel
 The detailed view of the selected channel includes dynamic control and an equalizer. It features simple on/off controls for previously set up plugins, a viewport for selecting up to 32 channels, fader automation, and bus routing.
 
-Detailed channel view of selected channel. Dynamic Control, Equalizer. Simple on/off control for set up plugins, viewport for selectable 32 channels, fader automation and bus routing.
-
 ![Selected Ch Panel](https://user-images.githubusercontent.com/8352411/121231949-519d2b80-c891-11eb-8196-3f68af1e6152.png)
 
 ### Sends On Fader
