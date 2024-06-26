@@ -54,12 +54,13 @@ The detailed view of the selected channel includes dynamic control and an equali
 ![Selected Ch Panel](https://user-images.githubusercontent.com/8352411/121231949-519d2b80-c891-11eb-8196-3f68af1e6152.png)
 
 ### Sends On Fader
-![SendsOnFader Panel](https://user-images.githubusercontent.com/8352411/121232018-67aaec00-c891-11eb-9563-539e6b8ebce3.png)
 Sends On Fader (SoF) displays the first eight buses to which the selected channel can be sent. You can find the name of the selected channel at the bottom.
 Each send is labeled at the top and includes a fader. It can be turned on or off, muted, soloed, and edited. The edit function allows you to quickly switch to the desired bus to adjust dynamics, equalizer, and panorama settings.
 
-### Master & Monitor
-![Master & Monitor Panel](https://user-images.githubusercontent.com/8352411/122688020-0c2a1800-d21a-11eb-8070-db50ddfdb538.png)
-This pane allows for quick and easy volume adjustments of the master and monitor.
+![SendsOnFader Panel](https://user-images.githubusercontent.com/8352411/121232018-67aaec00-c891-11eb-9563-539e6b8ebce3.png)
 
+### Master & Monitor
+This pane allows for quick and easy volume adjustments of the master and monitor.
 On the left side, there is a simple meter with a peak indicator. Next to it are the controls for the master bus. Both the input trim and volume have buttons to reset their values to 0 dB. The monitor volume is controlled by a circular knob on the right side.
+
+![Master & Monitor Panel](https://user-images.githubusercontent.com/8352411/122688020-0c2a1800-d21a-11eb-8070-db50ddfdb538.png)
