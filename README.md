@@ -20,7 +20,7 @@ Mixbus 10 now supports almost all commands required by the layout.)
 - Show Protocol Setting -> Either choose **preset** _Ardour Factory Setting_ or try **manual settings**:
   
    #### OSC Setup
-   - Port Mode: Manual (Specify Below)
+   - Port Mode: Manual (Specify Below) 
    - Reply Manual Port: 8000
    - Debug: Off  
 
@@ -55,6 +55,11 @@ The detailed view of the selected channel includes dynamic control and an equali
 
 ### Sends On Fader
 ![SendsOnFader Panel](https://user-images.githubusercontent.com/8352411/121232018-67aaec00-c891-11eb-9563-539e6b8ebce3.png)
+Sends On Fader (SoF) displays the first eight buses to which the selected channel can be sent. You can find the name of the selected channel at the bottom.
+Each send is labeled at the top and includes a fader. It can be turned on or off, muted, soloed, and edited. The edit function allows you to quickly switch to the desired bus to adjust dynamics, equalizer, and panorama settings.
 
 ### Master & Monitor
 ![Master & Monitor Panel](https://user-images.githubusercontent.com/8352411/122688020-0c2a1800-d21a-11eb-8070-db50ddfdb538.png)
+This pane allows for quick and easy volume adjustments of the master and monitor.
+
+On the left side, there is a simple meter with a peak indicator. Next to it are the controls for the master bus. Both the input trim and volume have buttons to reset their values to 0 dB. The monitor volume is controlled by a circular knob on the right side.
